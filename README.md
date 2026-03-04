@@ -38,16 +38,16 @@ Tailor Notebook is a web-based management system designed for tailoring shops to
 TailorNotebook
 │
 ├── models
-│ ├── Appointment.js
-│ ├── customer.js
-│ ├── Employee.js
-│ ├── Inventory.js
-│ └── user.js
+│   ├── Appointment.js
+│   ├── customer.js
+│   ├── Employee.js
+│   ├── Inventory.js
+│   └── user.js
 │
 ├── public
-│ ├── uploads
-│ ├── script.js
-│ └── style.css
+│   ├── uploads
+│   ├── script.js
+│   └── style.css
 │
 ├── views
 │
