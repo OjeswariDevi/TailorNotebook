@@ -120,7 +120,7 @@ The system includes the following models:
 - Mobile responsive UI
 ---
 ## 👩‍💻 Author
-**Ojeswari Devi**  
+**Ojeswari Devi Kilari**  
 B.Tech Computer Science Engineering  
 Full Stack Web Developer  
 
