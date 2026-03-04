@@ -33,8 +33,9 @@ Tailor Notebook is a web-based management system designed for tailoring shops to
 - Mongoose ODM
 
 ---
-
 ## 📂 Project Structure
+
+```
 TailorNotebook
 │
 ├── models
@@ -57,6 +58,7 @@ TailorNotebook
 ├── seed.js
 ├── package.json
 └── README.md
+```
 
 ---
 
@@ -80,30 +82,14 @@ npm install
 Create a `.env` file based on `.env.example`
 
 Example:
-
-
 MONGO_URI=your_mongodb_connection_string
 PORT=3000
-
-
 ### 5 Run the application
-
-
 npm start
-
-
 or
-
-
 node app.js
-
-
 Open the browser:
-
-
 http://localhost:3000
-
-
 ---
 
 ## 📊 Database Models
@@ -115,9 +101,7 @@ The system includes the following models:
 - **Employee** – tracks employees
 - **Inventory** – manages materials and stock
 - **User** – authentication and system access
-
 ---
-
 ## 📈 Future Improvements
 
 - Online appointment booking
@@ -126,11 +110,8 @@ The system includes the following models:
 - Admin dashboard
 - Cloud deployment
 - Mobile responsive UI
-
 ---
-
 ## 👩‍💻 Author
-
 **Ojeswari Devi**  
 B.Tech Computer Science Engineering  
 Full Stack Web Developer  
