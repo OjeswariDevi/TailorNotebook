@@ -1,41 +1,138 @@
-# 🧵 Tailor Notebook – Tailoring Management System
+# 🧵 Tailor Notebook
 
-## 📌 Overview
-Tailor Notebook is a web-based application designed to help tailors manage customer information, measurements, and orders digitally. The system replaces traditional paper records with an organized digital system, making it easier to track customer details, measurements, and order status.
+Tailor Notebook is a web-based management system designed for tailoring shops to manage customers, appointments, employees, and inventory in a digital way. It helps tailors keep track of measurements, orders, and customer information efficiently instead of maintaining manual records.
 
 ---
 
 ## 🚀 Features
-- Add and manage customer details
-- Store customer measurements
-- Create and track tailoring orders
-- Update order status
-- View customer order history
-- User-friendly interface
-- Organized digital records
+
+- Customer management
+- Appointment scheduling
+- Employee management
+- Inventory tracking
+- Simple dashboard for tailoring operations
+- File uploads for storing data
+- Organized database structure
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠 Tech Stack
 
-### Frontend
-- EJS (Embedded JavaScript Templates)
-- HTML
-- CSS
-
-### Backend
+**Backend**
 - Node.js
 - Express.js
 
-### Database
-- PostgreSQL
+**Frontend**
+- EJS Templates
+- HTML
+- CSS
+- JavaScript
 
-### Tools
-- RESTful APIs
-- Axios
-- Body Parser
-- Nodemon
+**Database**
+- MongoDB
+- Mongoose ODM
 
 ---
 
 ## 📂 Project Structure
+TailorNotebook
+│
+├── models
+│ ├── Appointment.js
+│ ├── customer.js
+│ ├── Employee.js
+│ ├── Inventory.js
+│ └── user.js
+│
+├── public
+│ ├── uploads
+│ ├── script.js
+│ └── style.css
+│
+├── views
+│
+├── .env.example
+├── app.js
+├── create-sample-customers.js
+├── seed.js
+├── package.json
+└── README.md
+
+---
+
+## ⚙️ Installation
+
+### 1 Clone the repository
+git clone https://github.com/OjeswariDevi/TailorNotebook.git
+
+### 2 Navigate to project folder
+cd TailorNotebook
+
+
+### 3 Install dependencies
+
+
+npm install
+
+
+### 4 Setup environment variables
+
+Create a `.env` file based on `.env.example`
+
+Example:
+
+
+MONGO_URI=your_mongodb_connection_string
+PORT=3000
+
+
+### 5 Run the application
+
+
+npm start
+
+
+or
+
+
+node app.js
+
+
+Open the browser:
+
+
+http://localhost:3000
+
+
+---
+
+## 📊 Database Models
+
+The system includes the following models:
+
+- **Customer** – stores customer details
+- **Appointment** – manages tailoring appointments
+- **Employee** – tracks employees
+- **Inventory** – manages materials and stock
+- **User** – authentication and system access
+
+---
+
+## 📈 Future Improvements
+
+- Online appointment booking
+- Measurement tracking
+- PDF invoice generation
+- Admin dashboard
+- Cloud deployment
+- Mobile responsive UI
+
+---
+
+## 👩‍💻 Author
+
+**Ojeswari Devi**  
+B.Tech Computer Science Engineering  
+Full Stack Web Developer  
+
+GitHub: https://github.com/OjeswariDevi
