@@ -87,9 +87,16 @@ PORT=3000
 ### 5 Run the application
 
 npm start
+
+
 or
+
+
 node app.js
+
+
 Open the browser:
+
 http://localhost:3000
 ---
 
