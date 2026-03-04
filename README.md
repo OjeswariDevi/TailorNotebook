@@ -85,6 +85,7 @@ Example:
 MONGO_URI=your_mongodb_connection_string
 PORT=3000
 ### 5 Run the application
+
 npm start
 or
 node app.js
